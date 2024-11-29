@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Haus Savings - Impulsa tu ahorro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="container">
+        <a href="https://www.lahaus.mx/" target="_blank" class="navbar-logo">
+            <img src="https://lahaus.imgix.net/static/branding/logo-lahaus-full.svg?auto=compress,format&dpr=2" alt="La Haus Logo">
+        </a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-banner">
+            <h1>Duplica el rendimiento de tu ahorro para el enganche de tu casa</h1>
+        </div>
+    </div>
+</section>
+
+<!-- Value Proposition -->
+<section class="value-prop">
+    <div class="container">
+        <div class="value-prop-content">
+            <div class="plan-label">PLANEA TU AHORRO</div>
+            <h2>Ahorra con La Haus y obtén hasta 19% de rendimiento al comprar tu depa</h2>
+            <p>¿Tu meta es comprar un departamento? Comienza hoy mismo con un plan personalizado que te ayudará a alcanzar el enganche más rápido.</p>
+        </div>
+        <div class="value-prop-image">
+            <img src="assets/images/CardMigue.png" alt="Savings Illustration">
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits">
+    <div class="container">
+        <div class="benefits-image">
+            <img src="https://images.ctfassets.net/cfexf643femz/4Qjtvb4UKqfbWCsG6gTAri/47e7e3c8ba7612ea1288dbfc554bfe77/opciones_de_inversi_n_en_m_xico__3_.jpg?w=1136&fm=webp&q=60" alt="Maximize your savings">
+            <span class="label">ACTIVA TU PATRIMONIO</span>
+            <h2>Invierte en tu futuro mientras maximizas el rendimiento de tu ahorro</h2>
+        </div>
+        <div class="benefits-grid">
+        </div>
+    </div>
+</section>
+
+    <!-- Social Proof -->
+    <section class="social-proof">
+        <div class="container">
+            <h2>Únete a más de 15 mil personas que ya compraron depa con La Haus</h2>
+            <div class="carousel-container">
+                <div id="testimonialCarousel" class="carousel">
+                    <!-- Carousel items will be inserted by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sticky Bar -->
+    <div class="sticky-bar">
+        <div class="container">
+            <div class="sticky-bar-content">
+                <p>Comienza tu plan de ahorro</p>
+                <button class="btn" id="openModal">Conoce más</button>
+            </div>
+        </div>
+    </div>
+
+<!-- Modal -->
+<div class="modal" id="registrationModal">
+    <div class="modal-content">
+        <button class="close-modal" id="closeModal">&times;</button>
+        <h2>Regístrate para activar tu plan de ahorro</h2>
+        <form id="registrationForm">
+            <div class="form-group">
+                <label for="name">Nombre completo</label>
+                <input type="text" id="name" required placeholder="Maria Lopex">
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" required placeholder="+525555613012">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" required placeholder="lopez_002@gmail.com">
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </div>
+</div>
+
+    <script src="js/script.js"></script>
+    <script>
+        console.log('Script loaded');
+    </script>
+</body>
+</html>
